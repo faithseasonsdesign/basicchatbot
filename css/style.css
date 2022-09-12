@@ -1,0 +1,45 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color:darkred;
+}
+.chat-wrapper{
+	background-color:white;
+	height:690px;
+}
+.bot-chats-wrapper{
+	height:500px;
+	overflow:auto;
+}
+.bot-header-wrapper{
+	background-color:darkred;
+}
+
+.bot-message{
+	word-wrap:break-word;
+	background-color:darkblue;
+	color:white;
+	width:60%;
+	padding:7px 10px;
+	margin:10px 0;
+}
+.user-message{
+	word-wrap:break-word;
+	background-color:blue;
+	color:white;
+	width:60%;
+	padding:7px 10px;
+	margin:5px 0 5px auto;
+}
+
+.bot-input{
+	width:calc(100% - 0%);
+	border-radius:30px;
+	border:none;
+}
+.bot-button{
+	border-radius:150px;
+	padding:10px;
+}

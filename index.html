@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css"/>
+    <title>BBD CHATBOT</title>
+  </head>
+  <body id="body" class="h-100 d-flex align-items-center justify-content-center bg-dark py-5">
+    
+
+	<div class="container py-5 bot-container d-flex align-items-center justify-content-center">
+		<div class="chat-wrapper col-12 col-sm-12 col-md-6">
+			
+			<div class="bot-header-wrapper py-3 col-12">
+				<div class="bot-img-wrapper">
+					<img class="img-fluid mx-auto bot-img" src="images/logo.svg"/>
+				</div>
+			</div>
+			
+			<div id="bot-chats-wrapper" class="bot-chats-wrapper w-100">
+				<div class="bot-message">
+					Hi how can I help you? <br> select an option : <br> 
+					eg. if you enter value '0' you'll get the answer for 'Who Are We?' : 
+					if you enter value '1' you'll get the answer for 'What Do We do ?'
+					<br>
+					<br>
+					<p class="questions" id="questions">
+						0. Who are we ? <br>
+						1. What do we do ? <br>
+						2. How much do we charge for our services ? <br>
+						3. Are the Grad Programs currently open ? <br>
+						4. Where are we located ?
+					</p>
+				</div>
+				
+			</div>
+			
+			<div class="bot-input-wrapper bg-light py-4 d-flex align-items-center">
+				<div class="col-10 bot-input-field-wrapper">
+					<input type="text" value="" id="chat-input" class="py-3 bot-input bg-secondary text-center text-white font-weight-bold" />
+				</div>
+				<div class="col-2 bot-button-wrapper container d-flex justify-content-end">
+					<button id="bot-button" type="button" class="py-3 font-weight-bold text-white bot-button btn btn-sm bg-success">
+						Send
+					</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+    <script src="js/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>
